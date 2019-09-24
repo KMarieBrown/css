@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+#container{
+    width: 1020px;
+    margin: 0 auto;
+    background-color: #cecac4;
+}
+header{
+    background-color: #d69dd6;
+    text-align: center;
+    width:100%;
+    height: auto;
+    padding-top: 2.5px;
+}
+#nav1{
+    width: 100%;
+    height:125px;
+    text-align: center;
+}
+#nav2{
+    width: auto;
+    height: auto;
+    text-align: left;
+    color: #c985c9;
+}
+#vocals{
+    width: auto;
+    height: auto;
+    clear: both;
+    border: thin solid;
+}
+#performer{
+    width: 45%;
+    height: auto;
+    float: left;
+}
+#business{
+    width: 45%;
+    height: auto;
+    float: left;
+}
+footer{
+    background-color: #cecac4;
+    width: 100%;
+    height: 25px;
+    clear:both;
+}
+a{
+    align-content: center;
+}
