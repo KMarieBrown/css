@@ -2,15 +2,17 @@ body{
     background-color: black;
 }
 #container{
-    width: 1020px;
-    margin: 0 auto;
+    width: 1200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin:0 auto;
     background-color: #cecac4;
 }
 header{
     background-color: #d69dd6;
     text-align: center;
     width:100%;
-    height: auto;
+    height: 650px;
     padding-top: 2.5px;
 }
 #nav1{
@@ -19,26 +21,45 @@ header{
     text-align: center;
 }
 #nav2{
-    width: auto;
+    width: 100%;
     height: auto;
     text-align: left;
     color: #c985c9;
 }
 #vocals{
-    width: auto;
+    width: 500px;
     height: auto;
-    clear: both;
+    float: left;
     border: thin solid;
+    border-color: dimgray;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-left: 45px;
 }
 #performer{
-    width: 45%;
+    width: 500px;
     height: auto;
     float: left;
+    border: thin solid;
+    border-color: dimgray;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 #business{
-    width: 45%;
+    width: 500px;
     height: auto;
     float: left;
+    border: thin solid;
+    border-color: dimgray;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 footer{
     background-color: #cecac4;
@@ -46,6 +67,12 @@ footer{
     height: 25px;
     clear:both;
 }
-a{
-    align-content: center;
+#left{
+    float: left;
+}
+ol{
+    float: left
+}
+h2{
+    text-align: center;
 }
